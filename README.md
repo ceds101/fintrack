@@ -1,0 +1,2 @@
+# fintrack
+Finance tracker
