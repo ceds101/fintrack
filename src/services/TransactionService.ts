@@ -3,7 +3,23 @@ import { Transaction } from 'src/models/transaction';
 
 @Injectable()
 export class TransactionService {
-  getTransactions(): string {
-    return 'test transaction get';
+  create(transaction: Transaction) {
+    return 'test transaction create';
+  }
+
+  findAll() {
+    return 'test transaction getAll';
+  }
+
+  findOne(id: string) {
+    return id;
+  }
+
+  update(id: string, transaction: Transaction) {
+    return id;
+  }
+
+  remove(id: string) {
+    return id;
   }
 }
